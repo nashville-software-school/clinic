@@ -34,6 +34,8 @@ In the `main.js` module, invoke the `testPerson` function and provide the requir
 
 Also look at your terminal window that is running the tests and make sure that the `Person has been tested` test is passing.
 
+> 1 out of 3 Test Suites should be passing.
+
 Once you have it working, test 5 people in the `main.js` module.
 
 **THEN PUSH YOUR CODE TO GITHUB**
@@ -42,8 +44,9 @@ Once you have it working, test 5 people in the `main.js` module.
 
 1. Define a `scripts/Clinic.js` module.
 1. Define a variable in the module that will store the people objects after they have been diagnosed in the clinic. Its initial value should be an empty array.
-1. Define and export a function named `usePatients` which should return the array of diagnosed patients.
-1. Define and export a function named `diagnose` that is responsible for providing a diagnosis for a tested person.
+1. Define and export an object named `clinic` which should have 2 properties on it:
+    1. A key of `usePatients` and its value is a function that should return the array of diagnosed patients.
+    1. A key of `diagnose` and its value is a function that is responsible for providing a diagnosis for a tested person.
 1. The function must accept the following values as input _(i.e. it needs parameters)_, in the following order.
     1. An object representing a person who was tested with the `testPerson` function.
     1. A number specifying how many days the person has been exhibiting symptoms.
@@ -66,6 +69,8 @@ Also look at your terminal window that is running the tests and make sure that t
 * `Person is infected when temperature and symptomatic days are too high`
 * `Person is not infected when days are too few`
 * `Person is not infected when no conditions met`
+
+> 2 out of 3 Test Suites should be passing.
 
 **THEN PUSH YOUR CODE TO GITHUB**
 
@@ -111,5 +116,7 @@ Make sure your web server is running, and then visit http://localhost:<yourPort#
 Then look at your terminal window that is running the tests and make sure that the following tests pass.
 
 * `Patients are rendered to DOM`
+
+> All 3 Test Suites should be passing.
 
 **THEN PUSH YOUR CODE TO GITHUB**
