@@ -34,6 +34,8 @@ In the `main.js` module, invoke the `testPerson` function and provide the requir
 
 Also look at your terminal window that is running the tests and make sure that the `Person has been tested` test is passing.
 
+> 1 out of 3 Test Suites should be passing.
+
 Once you have it working, test 5 people in the `main.js` module.
 
 **THEN PUSH YOUR CODE TO GITHUB**
@@ -67,6 +69,8 @@ Also look at your terminal window that is running the tests and make sure that t
 * `Person is infected when temperature and symptomatic days are too high`
 * `Person is not infected when days are too few`
 * `Person is not infected when no conditions met`
+
+> 2 out of 3 Test Suites should be passing.
 
 **THEN PUSH YOUR CODE TO GITHUB**
 
@@ -112,5 +116,7 @@ Make sure your web server is running, and then visit http://localhost:<yourPort#
 Then look at your terminal window that is running the tests and make sure that the following tests pass.
 
 * `Patients are rendered to DOM`
+
+> All 3 Test Suites should be passing.
 
 **THEN PUSH YOUR CODE TO GITHUB**
