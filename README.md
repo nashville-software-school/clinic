@@ -88,7 +88,17 @@ Your next task is to create HTML representations of the people who have been tes
 1. The `PatientList` function must use that array of patients from the from the `Clinic.js` module.
 1. The `PatientList` function must convert each object in the array to an HTML representation string.
    The resulting HTML should look like the following example. Recall the `${}` syntax for interpolating JavaScript variables into string templates.
-   `html <section class="patient" id="patient--1"> <h2 class="patient__name">Doug</h2> <div class="patient__properties"> <p>Age: 32</p> <p>Temperature: 101</p> <p>Diagnosed: true</p> </div> <div class="patient_diagnosis"> Infected: false </div> </section> `
+   ```html
+   <section class="patient" id="patient--1">
+     <h2 class="patient__name">Doug</h2>
+     <div class="patient__properties">
+       <p>Age: 32</p>
+       <p>Temperature: 101</p>
+       <p>Diagnosed: true</p>
+     </div>
+     <div class="patient_diagnosis">Infected: false</div>
+   </section>
+   ```
 1. The function must put all of the HTML representations into a single string. Recall that there are ways to turn an array's values into a single string.
 1. The function then must return that single string that has all of the patient HTML representation in it.
 1. In the `main.js` module, invoke the `PatientList` component function. Take the string of HTML representations that it returns and update the inner HTML of the article element you created in `index.html`. You need to remember how to get a reference to DOM element in JavaScript and then assign it some HTML.
