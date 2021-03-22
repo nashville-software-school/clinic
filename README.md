@@ -48,7 +48,7 @@ Once you have it working, test 5 people in the `main.js` module.
 1. In the same file, define and export a function named `diagnose` which will be responsible for providing a diagnosis for a tested person. The function must accept the following values as input _(i.e. it needs parameters)_, in the following order.
    1. An object representing a person who was tested with the `testPerson` function.
    1. A number specifying how many days the person has been exhibiting symptoms.
-1. The `diagnose` function must add a new property of `diagnosed` with the value of `true` to the object. If you don't remember, you can easily [add new properties to objects in JavaScript](https://www.dyn-web.com/tutorials/object-literal/properties.php).
+1. The `diagnose` function must add a new property of `diagnosed` with the value of `true` to the object. If you don't remember, you can easily [add new properties to objects in JavaScript](https://www.educative.io/edpresso/how-to-add-property-to-an-object-in-javascript).
 1. The `diagnose` function must also add a new property of `infected` to the object.
    1. If the person's temperature is above 101 and the number of days the person has been symptomatic is greater than, or equal to, 4 then `infected` property must have a value of `true`.
    1. Otherwise, the `infected` property must have a value of `false`.
